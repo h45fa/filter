@@ -54,7 +54,7 @@ const showProducts = (arrayOfProd) => {
   const strProducts = arrayOfProd.map(product => `
     <div class="product">
       <img src="${product.img}" alt="" />
-      <span class="${product.name}">Invicta Men's Pro Diver 2</span>
+      <span class="name">${product.name}</span>
       <span class="priceText">${product.price}</span>
     </div>
   `).join("")
